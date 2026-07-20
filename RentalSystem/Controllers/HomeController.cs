@@ -11,9 +11,8 @@ namespace RentalSystem.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-        }
-
-        public IActionResult Index()
+        }// i think i
+        public IActionReasult Index()
         {
             return View();
         }
